@@ -42,11 +42,27 @@
         </div>
         
         <div id="gameContent">
+            <div class="cajasRelleno"> 
+                <div class="cajaRellenar" id="rellenar1">
+                    Arrastre y suelte la imagen aquí
+                </div>
+                
+                <div class="cajaRellenar" id="rellenar2">
+                    Arrastre y suelte la imagen aquí
+                </div>
 
-            
-            
+                <div  class="cajaRellenar" id="rellenar3">
+                    Arrastre y suelte la imagen aquí
+                </div>
+            </div>
+            <div id="cajaImagenes" class="cajasImagenes"> 
+                    <img id="imagen2" src='./css/img2.png' />
+                    <img id="imagen1" src='./css/img1.png' />                
+                    <img id="imagen3" src='./css/img3.png' />
+            </div>
+
         </div>
-    
+        <button class="primaryButton" id="reiniciarButton" onclick="location.reload()"> Reiniciar </button>
     </div>
 
     <footer class="final">
@@ -57,6 +73,7 @@
         
     </footer>
     
+    <script src="./juego.js"></script>
 </body>
 
 
